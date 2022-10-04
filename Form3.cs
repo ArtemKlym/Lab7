@@ -34,7 +34,9 @@ namespace Test7
             g = CreateGraphics();
             if (checkBox1.Checked)
             {
-                g.DrawEllipse(Pens.Black, 100, 100, 300, 300);
+                Form4 form4 = new Form4();
+                form4.Show();
+                form4.g.DrawEllipse(Pens.Black, 100, 100, 300, 300);
                 g.FillEllipse(Brushes.Black, 100, 100, 300, 300);
             }
         }

@@ -19,7 +19,7 @@ namespace Test7
             
         }
 
-        
+        Graphics g;
 
         private void calculatorToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -35,7 +35,7 @@ namespace Test7
             
 
         }
-         
 
+       
     }
 }
