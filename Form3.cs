@@ -35,7 +35,7 @@ namespace Test7
             if (checkBox1.Checked)
             {
                 g.DrawEllipse(Pens.Black, 100, 100, 300, 300);
-                g.FillEllipse(Brushes.Yellow, 100, 100, 300, 300);
+                g.FillEllipse(Brushes.Black, 100, 100, 300, 300);
             }
         }
     }
