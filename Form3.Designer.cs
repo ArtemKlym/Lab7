@@ -66,6 +66,7 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "White";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged_1);
             // 
             // radioButton5
             // 
@@ -77,6 +78,7 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Yellow";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged_1);
             // 
             // radioButton4
             // 
@@ -88,6 +90,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Blue";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged_1);
             // 
             // radioButton3
             // 
@@ -99,6 +102,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Red";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged_1);
             // 
             // radioButton2
             // 
@@ -110,6 +114,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Green";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged_1);
             // 
             // radioButton1
             // 
@@ -132,6 +137,7 @@
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "Fill Ellipse";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
             // button1
             // 
